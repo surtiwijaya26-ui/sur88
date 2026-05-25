@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modul Ajar DKV - Desain Publikasi</title>
+    
+    <!-- BAGIAN CSS: Ini untuk mengatur tampilan/gaya -->
+    <style>
+        /* 1. Reset Dasar agar rapi di semua browser */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* 2. Gaya untuk Navigasi (Navbar) */
+        nav {
+            background-color: #2c3e50; /* Warna biru gelap profesional */
+            padding: 15px 0;
+            position: sticky; /* Agar menu tetap di atas saat discroll */
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: auto;
+            display: flex; /* Membuat logo dan menu sejajar */
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            color: white;
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .menu {
+            list-style: none;
+            display: flex; /* Menu berjejer ke samping */
+        }
+
+        .menu li {
+            margin-left: 20px;
+        }
+
+        .menu a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: 0.3s; /* Efek halus saat hover */
+        }
+
+        .menu a:hover {
+            color: #3498db; /* Berubah warna jadi biru muda saat disentuh kursor */
+        }
+
+        /* 3. Gaya untuk Konten Utama */
+        .content-area {
+            background: white;
+            width: 90%;
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        h1 { color: #2c3e50; border-bottom: 2px solid #eee; padding-bottom: 10px; margin-bottom: 20px; }
+        h2 { color: #2980b9; margin-top: 30px; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+        th { background-color: #f8f9fa; }
+
+        /* Footer sederhana */
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #777;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- BAGIAN NAVIGASI (MENU) -->
+    <nav>
+        <div class="container">
+            <a href="#" class="logo">🎨 GuruDKV</a>
+            <ul class="menu">
+                <!-- Link ini akan scroll otomatis ke bagian ID yang sesuai -->
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#informasi">Informasi</a></li>
+                <li><a href="#kegiatan">Kegiatan</a></li>
+                <li><a href="#asesmen">Asesmen</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- BAGIAN KONTEN UTAMA -->
+    <div id="home" class="content-area">
+        <h1>Modul Ajar: Desain Poster Layanan Masyarakat</h1>
+        <p>Selamat datang di modul ajar digital untuk jurusan DKV. Silakan gunakan menu di atas untuk navigasi cepat.</p>
+    </div>
+
+    <div id="informasi" class="content-area">
+        <h2>1. Informasi Umum</h2>
+        <table>
+            <tr>
+                <th>Komponen</th>
+                <th>Deskripsi</th>
+            </tr>
+            <tr>
+                <td>Sekolah</td>
+                <td>SMK Kreatif Indonesia</td>
+            </tr>
+            <tr>
+                <td>Fase/Kelas</td>
+                <td>Fase F (Kelas XI)</td>
+            </tr>
+            <tr>
+                <td>Alokasi Waktu</td>
+                <td>4 JP (180 Menit)</td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="kegiatan" class="content-area">
+        <h2>2. Kegiatan Pembelajaran</h2>
+        <p>Berikut adalah rincian kegiatan dari pendahuluan hingga penutup:</p>
+        <table>
+            <tr>
+                <th>Tahap</th>
+                <th>Aktivitas</th>
+                <th>Waktu</th>
+            </tr>
+            <tr>
+                <td>Pendahuluan</td>
+                <td>Guru menampilkan contoh poster festival musik lokal.</td>
+                <td>15 Menit</td>
+            </tr>
+            <tr>
+                <td>Inti</td>
+                <td>Siswa membuat sketsa thumbnail dan eksekusi digital.</td>
+                <td>150 Menit</td>
+            </tr>
+            <tr>
+                <td>Penutup</td>
+                <td>Refleksi dan cleanup file.</td>
+                <td>15 Menit</td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="asesmen" class="content-area">
+        <h2>3. Asesmen & Refleksi</h2>
+        <ul>
+            <li><strong>Penilaian Proses:</strong> Keaktifan siswa saat diskusi.</li>
+            <li><strong>Penilaian Hasil:</strong> Estetika dan keterbacaan teks pada poster.</li>
+        </ul>
+    </div>
+
+    <footer>
+        &copy; 2024 Generator Modul Ajar DKV. Dibuat dengan Python & AI.
+    </footer>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DAFTAR ISI DIGITAL - ARTEFAK DESAIN PUBLIKASI DKV FASE F</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<style>
+    
+    
+    body {
+        font-family: 'Poppins', sans-serif;
+        background: #f8fafc;
+    }
+    
+    .title-font {
+        font-family: 'Space Grotesk', sans-serif;
+    }
+    
+    .gradient-bg {
+        background: linear-gradient(135deg, #1e3a8a 0%, #0ea5e9 100%);
+    }
+    
+    .glass-effect {
+        background: rgba(255, 255, 255, 0.85);
+        backdrop-filter: blur(12px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+    
+    .table-row-hover:hover {
+        background-color: #f1f5f9;
+        transform: scale(1.002);
+        transition: all 0.2s ease;
+    }
+    
+    .status-badge {
+        @apply px-3 py-1 rounded-full text-xs font-semibold whitespace-nowrap;
+    }
+    
+    .status-siap-cetak {
+        @apply bg-green-100 text-green-800 border border-green-300;
+    }
+    
+    .status-siap-supervisi {
+        @apply bg-blue-100 text-blue-800 border border-blue-300;
+    }
+    
+    @media print {
+        .no-print {
+            display: none !important;
+        }
+        body {
+            background: white;
+        }
+        .glass-effect {
+            background: white;
+            border: 1px solid #e2e8f0;
+        }
+        .shadow-lg, .shadow-xl {
+            box-shadow: none !important;
+        }
+        .table-row-hover:hover {
+            background-color: transparent;
+            transform: none;
+        }
+    }
+    
+    @page {
+        size: A4;
+        margin: 1.5cm;
+    }
+</style>
+</head>
+<body class="text-slate-800">
+    <div class="max-w-6xl mx-auto p-4 md:p-8">
+        <!-- Tombol Aksi -->
+        <div class="flex justify-end gap-3 mb-6 no-print">
+            <button onclick="window.print()" class="flex items-center gap-2 px-5 py-2.5 bg-sky-600 hover:bg-sky-700 text-white rounded-lg shadow-lg transition-all duration-300 hover:shadow-xl">
+                <i class="fa-solid fa-print"></i>
+                <span>Cetak Daftar Isi</span>
+            </button>
+        </div>
+
+        <!-- Cover -->
+        <div class="glass-effect rounded-2xl shadow-xl overflow-hidden mb-8">
+            <div class="gradient-bg p-8 md:p-12 text-white relative">
+                <div class="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full blur-3xl -mr-20 -mt-20"></div>
+                <div class="relative z-10">
+                    <div class="flex flex-col md:flex-row items-center gap-6 mb-8">
+                        <div class="w-24 h-24 bg-white rounded-xl p-3 shadow-lg flex items-center justify-center">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Tutwuri_handayani_logo.png" alt="Logo Tut Wuri Handayani" class="w-full h-full object-contain">
+                        </div>
+                        <div class="text-center md:text-left">
+                            <p class="text-sky-200 font-medium tracking-wide">SMK NEGERI 14 KABUPATEN TANGERANG</p>
+                            <h1 class="title-font text-3xl md:text-4xl font-bold mt-1 leading-tight">DAFTAR ISI DIGITAL</h1>
+                            <h2 class="title-font text-xl md:text-2xl font-semibold text-sky-100 mt-1">ARTEFAK DESAIN PUBLIKASI DKV FASE F</h2>
+                        </div>
+                    </div>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
+                        <div class="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
+                            <p class="text-sky-200 text-xs mb-1">Tahun Ajaran</p>
+                            <p class="font-semibold text-lg">2026 / 2027</p>
+                        </div>
+                        <div class="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
+                            <p class="text-sky-200 text-xs mb-1">Nama Guru</p>
+                            <p class="font-semibold text-lg">[Nama Guru Mapel]</p>
+                        </div>
+                        <div class="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
+                            <p class="text-sky-200 text-xs mb-1">Mata Pelajaran</p>
+                            <p class="font-semibold text-lg">Desain Publikasi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="px-8 md:px-12 py-6 bg-amber-50 border-t-4 border-amber-400">
+                <div class="flex items-start gap-3">
+                    <i class="fa-solid fa-circle-check text-amber-600 text-xl mt-0.5"></i>
+                    <div>
+                        <p class="font-semibold text-amber-900">Sesuai Pedoman Pembelajaran & Asesmen 2025</p>
+                        <p class="text-sm text-amber-800 mt-0.5">Terintegrasi dengan Dimensi Profil Lulusan Fase F SMK</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Statistik Ringkas -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8 no-print">
+            <div class="glass-effect rounded-xl p-5 shadow-lg text-center">
+                <i class="fa-solid fa-folder-open text-3xl text-sky-600 mb-2"></i>
+                <p class="text-3xl font-bold text-slate-800">6</p>
+                <p class="text-xs text-slate-500 mt-1">Kategori</p>
+            </div>
+            <div class="glass-effect rounded-xl p-5 shadow-lg text-center">
+                <i class="fa-solid fa-file-lines text-3xl text-emerald-600 mb-2"></i>
+                <p class="text-3xl font-bold text-slate-800">24</p>
+                <p class="text-xs text-slate-500 mt-1">Total Dokumen</p>
+            </div>
+            <div class="glass-effect rounded-xl p-5 shadow-lg text-center">
+                <i class="fa-solid fa-print text-3xl text-blue-600 mb-2"></i>
+                <p class="text-3xl font-bold text-slate-800">18</p>
+                <p class="text-xs text-slate-500 mt-1">Siap Cetak</p>
+            </div>
+            <div class="glass-effect rounded-xl p-5 shadow-lg text-center">
+                <i class="fa-solid fa-user-check text-3xl text-purple-600 mb-2"></i>
+                <p class="text-3xl font-bold text-slate-800">6</p>
+                <p class="text-xs text-slate-500 mt-1">Siap Supervisi</p>
+            </div>
+        </div>
+
+        <!-- Tabel Konten -->
+        <div class="space-y-6">
+            <!-- 1. PERENCANAAN -->
+            <div class="glass-effect rounded-xl shadow-lg overflow-hidden">
+                <div class="bg-slate-800 text-white px-6 py-4 flex items-center gap-3">
+                    <div class="w-8 h-8 bg-sky-500 rounded-lg flex items-center justify-center">
+                        <i class="fa-solid fa-calendar-days"></i>
+                    </div>
+                    <h3 class="title-font text-lg font-semibold">1. PERENCANAAN PEMBELAJARAN</h3>
+                </div>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-sm">
+                        <thead class="bg-slate-50 border-b border-slate-200">
+                            <tr>
+                                <th class="px-6 py-3 text-left font-semibold text-slate-700 w-12">No</th>
+                                <th class="px-6 py-3 text-left font-semibold text-slate-700">Nama Dokumen</th>
+                                <th class="px-6 py-3 text-left font-semibold text-slate-700">Deskripsi</th>
+                                <th class="px-6 py-3 text-center font-semibold text-slate-700">Status</th>
+                                <th class="px-6 py-3 text-center font-semibold text-slate-700 no-print">Aksi</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-slate-100">
+                            <tr class="table-row-hover">
+                                <td class="px-6 py-4 text-slate-500">1.1</td>
+                                <td class="px-6 py-4 font-medium">Analisis CP-TP-ATP</td>
+                                <td class="px-6 py-4 text-slate-600">Penjabaran Capaian Pembelajaran menjadi Tujuan & Alur Tujuan Pembelajaran Fase F</td>
+                                <td class="px-6 py-4 text-center"><span class="status-badge status-siap-supervisi">Siap Supervisi</span></td>
+                                <td class="px-6 py-4 text-center no-print"><a href="#" class="text-sky-600 hover:text-sky-800"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></td>
+                            </tr>
+                            <tr class="table-row-hover">
+                                <td class="px-6 py-4 text-slate-500">1.2</td>
+                                <td class="px-6 py-4 font-medium">Program Tahunan (Prota)</td>
+                                <td class="px-6 py-4 text-slate-600">Rencana alokasi waktu materi DKV Publikasi selama 1 tahun ajaran</td>
+                                <td class="px-6 py-4 text-center"><span class="status-badge status-siap-cetak">Siap Cetak</span></td>
+                                <td class="px-6 py-4 text-center no-print"><a href="#" class="text-sky-600 hover:text-sky-800"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></td>
+                            </tr>
+                            <tr class="table-row-hover">
+                                <td class="px-6 py-4 text-slate-500">1.3</td>
+                                <td class="px-6 py-4 font-medium">Program Semester (Promes)</td>
+                                <td class="px-6 py-4 text-slate-600">Penjadwalan materi dan penilaian per semester ganjil/genap TA 2026/2027</td>
+                                <td class="px-6 py-4 text-center"><span class="status-badge status-siap-cetak">Siap Cetak</span></td>
+                                <td class="px-6 py-4 text-center no-print"><a href="#" class="text-sky-600 hover:text-sky-800"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></td>
+                            </tr>
+                            <tr class="table-row-hover">
+                                <td class="px-6 py-4 text-slate-500">1.4</td>
+                                <td class="px-6 py-4 font-medium">Kalender Pendidikan (Kaldik)</td>
+                                <td class="px-6 py-4 text-slate-600">Kaldik SMKN 14 Kab. Tangerang TA 2026/2027 + hari efektif DKV</td>
+                                <td class="px-6 py-4 text-center"><span class="status-badge status-siap-cetak">Siap Cetak</span></td>
+                                <td class="px-6 py-4 text-center no-print"><a href="#" class="text-sky-600 hover:text-sky-800"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- 2. MODUL AJAR 4 BLOK -->
+            <div class="glass-effect rounded-xl shadow-lg overflow-hidden">
+                <div class="bg-slate-800 text-white px-6 py-4 flex items-center gap-3">
+                    <div class="w-8 h-8 bg-emerald-500 rounded-lg flex items-center justify-center">
+                        <i class="fa-solid fa-cubes"></i>
+                    </div>
+                    <h3 class="title-font text-lg font-semibold">2. MODUL AJAR 4 BLOK</h3>
+                </div>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-sm">
+                        <thead class="bg-slate-50 border-b border-slate-200">
+                            <tr>
+                                <th class="px-6 py-3 text-left font-semibold text-slate-700 w-12">No</th>
+                                <th class="px-6 py-3 text-left font-semibold text-slate-700">Nama Dokumen</th>
+                                <th class="px-6 py-3 text-left font-semibold text-slate-700">Deskripsi</th>
+                                <th class="px-6 py-3 text-center font-semibold text-slate-700">Status</th>
+                                <th class="px-6 py-3 text-center font-semibold text-slate-700 no-print">Aksi</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-slate-100">
+                            <tr class="table-row-hover">
+                                <td class="px-6 py-4 text-slate-500">2.1</td>
+                                <td class="px-6 py-4 font-medium">Modul Ajar Blok 1: Identitas Visual</td>
+                                <td class="px-6 py-4 text-slate-600">Perancangan logo, warna, tipografi untuk brand lokal UMKM</td>
+                                <td class="px-6 py-4 text-center"><span class="status-badge status-siap-supervisi">Siap Supervisi</span></td>
+                                <td class="px-6 py-4 text-center no-print"><a href="#" class="text-sky-600 hover:text-sky-800"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></td>
+                            </tr>
+                            <tr class="table-row-hover">
+                                <td class="px-6 py-4 text-slate-500">2.2</td>
+                                <td class="px-6 py-4 font-medium">LKPD Blok 1 + Rubrik</td>
+                                <td class="px-6 py-4 text-slate-600">Lembar kerja praktik redesign logo + rubrik asesmen performa</td>
+                                <td class="px-6 py-4 text-center"><span class="status-badge status-siap-cetak">Siap Cetak</span></td>
+                                <td class="px-6 py-4 text-center no-print"><a href="#" class="text-sky-600 hover:text-sky-800"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></td>
+                            </tr>
+                            <tr class="table-row-hover">
+                                <td class="px-6 py-4 text-slate-500">2.3</td>
+                                <td class="px-6 py-4 font-medium">Modul Ajar Blok 2: Kemasan</td>
+                                <td class="px-6 py-4 text-slate-600">Desain struktur dieline dan grafis kemasan produk kreatif</td>
+                                <td class="px-6 py-4 text-center"><span class="status-badge status-siap-supervisi">Siap Supervisi</span></td>
+                                <td class="px-6 py-4 text-center no-print"><a href="#" class="text-sky-600 hover:text-sky-800"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></td>
+                            </tr>
+                            <tr class="table-row-hover">
+                                <td class="px-6 py-4 text-slate-500">2.4</td>
+                                <td class="px-6 py-4 font-medium">LKPD Blok 2 + Rubrik</td>
+                                <td class="px-6 py-4 text-slate-600">Projek pembuatan mockup kemasan siap produksi</td>
+                                <td class="px-6 py-4 text-center"><span class="status-badge status-siap-cetak">Siap Cetak</span></td>
+                                <td class="px-6 py-4 text-center no-print"><a href="#" class="text-sky-600 hover:text-sky-800"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></td>
+                            </tr>
+                            <tr class="table-row-hover">
+                                <td class="px-6 py-4 text-slate-500">2.5</td>
+                                <td class="px-6 py-4 font-medium">Modul Ajar Blok 3: Digital</td>
+                                <td class="px-6 py-4 text-slate-600">Konten publikasi digital: feed Instagram, web banner, motion</td>
+                                <td class="px-6 py-4 text-center"><span class="status-badge status-siap-supervisi">Siap Supervisi</span></td>
+                                <td class="px-6 py-4 text-center no-print"><a href="#" class="text-sky-600 hover:text-sky-800"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></td>
+                            </tr>
+                            <tr class="table-row-hover">
+                                <td class="px-6 py-4 text-slate-500">2.6</td>
+                                <td class="px-6 py-4 font-medium">LKPD Blok 3 + Rubrik</td>
+                                <td class="px-6 py-4 text-slate-600">Campaign calendar 7 hari + aset digital optimasi platform</td>
+                                <td class="px-6 py-4 text-center"><span class="status-badge status-siap-cetak">Siap Cetak</span></td>
+                                <td class="px-6 py-4 text-center no-print"><a href="#" class="text-sky-600 hover:text-sky-800"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></td>
+                            </tr>
+                            <tr class="table-row-hover">
+                                <td class="px-6 py-4 text-slate-500">2.7</td>
+                                <td class="px-6 py-4 font-medium">Modul Ajar Blok 4: Event</td>
+                                <td class="px-6 py-4 text-slate-600">Perangkat visual pameran: poster, katalog, booth, signage</td>
+                                <td class="px-6 py-4 text-center"><span class="status-badge status-siap-supervisi">Siap Supervisi</span></td>
+                                <td class="px-6 py-4 text-center no-print"><a href="#" class="text-sky-600 hover:text-sky-800"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></td>
+                            </tr>
+                            <tr class="table-row-hover">
+                                <td class="px-6 py-4 text-slate-500">2.8</td>
+                                <td class="px-6 py-4 font-medium">LKPD Blok 4 + Rubrik</td>
+                                <td class="px-6 py-4 text-slate-600">Simulasi produksi event expo DKV skala sekolah</td>
+                                <td class="px-6 py-4 text-center"><span class="status-badge status-siap-cetak">Siap Cetak</span></td>
+                                <td class="px-6 py-4 text-center no-print"><a href="#" class="text-sky-600 hover:text-sky-800"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- 3. RPPH & LKPD -->
+            <div class="glass-effect rounded-xl shadow-lg overflow-hidden">
+                <div class="bg-slate-800 text-white px-6 py-4 flex items-center gap-3">
+                    <div class="w-8 h-8 bg-purple-500 rounded-lg flex items-center justify-center">
+                        <i class="fa-solid fa-chalkboard-user"></i>
+                    </div>
+                    <h3 class="title-font text-lg font-semibold">3. RPPH & LKPD</h3>
+                </div>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-sm">
+                        <thead class="bg-slate-50 border-b border-slate-200">
+                            <tr>
+                                <th class="px-6 py-3 text-left font-semibold text-slate-700 w-12">No</th>
+                                <th class="px-6 py-3 text-left font-semibold text-slate-700">Nama Dokumen</th>
+                                <th class="px-6 py-3 text-left font-semibold text-slate-700">Deskripsi</th>
+                                <th class="px-6 py-3 text-center font-semibold text-slate-700">Status</th>
+                                <th class="px-6 py-3 text-center font-semibold text-slate-700 no-print">Aksi</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-slate-100">
+                            <tr class="table-row-hover">
+                                <td class="px-6 py-4 text-slate-500">3.1</td>
+                                <td class="px-6 py-4 font-medium">RPPH P1 Blok 3 Digital - 8JP</td>
+                                <td class="px-6 py-4 text-slate-600">Rencana harian detail alur 8 jam: riset audiens s.d publikasi</td>
+                                <td class="px-6 py-4 text-center"><span class="status-badge status-siap-cetak">Siap Cetak</span></td>
+                                <td class="px-6 py-4 text-center no-print"><a href="#" class="text-sky-600 hover:text-sky-800"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></td>
+                            </tr>
+                            <tr class="table-row-hover">
+                                <td class="px-6 py-4 text-slate-500">3.2</td>
+                                <td class="px-6 py-4 font-medium">LKPD Pendukung RPPH P1</td>
+                                <td class="px-6 py-4 text-slate-600">Lembar aktivitas siswa: audit kompetitor & wireframe konten</td>
+                                <td class="px-6 py-4 text-center"><span class="status-badge status-siap-cetak">Siap Cetak</span></td>
+                                <td class="px-6 py-4 text-center no-print"><a href="#" class="text-sky-600 hover:text-sky-800"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- 4. ASESMEN -->
+            <div class="glass-effect rounded-xl shadow-lg overflow-hidden">
+                <div class="bg-slate-800 text-white px-6 py-4 flex items-center gap-3">
+                    <div class="w-8 h-8 bg-amber-500 rounded-lg flex items-center justify-center">
+                        <i class="fa-solid fa-file-circle-check"></i>
+                    </div>
+                    <h3 class="title-font text-lg font-semibold">4. ASESMEN</h3>
+                </div>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-sm">
+                        <thead class="bg-slate-50 border-b border-slate-200">
+                            <tr>
+                                <th class="px-6 py-3 text-left font-semibold text-slate-700 w-12">No</th>
+                                <th class="px-6 py-3 text-left font-semibold text-slate-700">Nama Dokumen</th>
+                                <th class="px-6 py-3 text-left font-semibold text-slate-700">Deskripsi</th>
+                                <th class="px-6 py-3 text-center font-semibold text-slate-700">Status</th>
+                                <th class="px-6 py-3 text-center font-semibold text-slate-700 no-print">Aksi</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-slate-100">
+                            <tr class="table-row-hover">
+                                <td class="px-6 py-4 text-slate-500">4.1</td>
+                                <td class="px-6 py-4 font-medium">Bank Soal HOTS DKV Publikasi</td>
+                                <td class="px-6 py-4 text-slate-600">40 soal C4-C6: PG Kompleks, Menjodohkan, Uraian, Studi Kasus</td>
+                                <td class="px-6 py-4 text-center"><span class="status-badge status-siap-cetak">Siap Cetak</span></td>
+                                <td class="px-6 py-4 text-center no-print"><a href="#" class="text-sky-600 hover:text-sky-800"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></td>
+                            </tr>
+                            <tr class="table-row-hover">
+                                <td class="px-6 py-4 text-slate-500">4.2</td>
+                                <td class="px-6 py-4 font-medium">Kisi-Kisi Sumatif Akhir Blok</td>
+                                <td class="px-6 py-4 text-slate-600">Pemetaan soal terhadap CP, dimensi profil lulusan, level kognitif</td>
+                                <td class="px-6 py-4 text-center"><span class="status-badge status-siap-cetak">Siap Cetak</span></td>
+                                <td class="px-6 py-4 text-center no-print"><a href="#" class="text-sky-600 hover:text-sky-800"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></td>
+                            </tr>
+                            <tr class="table-row-hover">
+                                <td class="px-6 py-4 text-slate-500">4.3</td>
+                                <td class="px-6 py-4 font-medium">Pedoman Penilaian Projek</td>
+                                <td class="px-6 py-4 text-slate-600">Teknis konversi skor rubrik ke nilai rapor kurikulum merdeka</td>
+                                <td class="px-6 py-4 text-center"><span class="status-badge status-siap-supervisi">Siap Supervisi</span></td>
+                                <td class="px-6 py-4 text-center no-print"><a href="#" class="text-sky-600 hover:text-sky-800"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- 5. ADMINISTRASI EVENT -->
+            <div class="glass-effect rounded-xl shadow-lg overflow-hidden">
+                <div class="bg-slate-800 text-white px-6 py-4 flex items-center gap-3">
+                    <div class="w-8 h-8 bg-rose-500 rounded-lg flex items-center justify-center">
+                        <i class="fa-solid fa-bullhorn"></i>
+                    </div>
+                    <h3 class="title-font text-lg font-semibold">5. ADMINISTRASI EVENT</h3>
+                </div>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-sm">
+                        <thead class="bg-slate-50 border-b border-slate-200">
+                            <tr>
+                                <th class="px-6 py-3 text-left font-semibold text-slate-700 w-12">No</th>
+                                <th class="px-6 py-3 text-left font-semibold text-slate-700">Nama Dokumen</th>
+                                <th class="px-6 py-3 text-left font-semibold text-slate-700">Deskripsi</th>
+                                <th class="px-6 py-3 text-center font-semibold text-slate-700">Status</th>
+                                <th class="px-6 py-3 text-center font-semibold text-slate-700 no-print">Aksi</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-slate-100">
+                            <tr class="table-row-hover">
+                                <td class="px-6 py-4 text-slate-500">5.1</td>
+                                <td class="px-6 py-4 font-medium">Proposal Expo DKV "VISKA 2027"</td>
+                                <td class="px-6 py-4 text-slate-600">Proposal lengkap kegiatan pameran karya siswa Fase F</td>
+                                <td class="px-6 py-4 text-center"><span class="status-badge status-siap-cetak">Siap Cetak</span></td>
+                                <td class="px-6 py-4 text-center no-print"><a href="#" class="text-sky-600 hover:text-sky-800"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></td>
+                            </tr>
+                            <tr class="table-row-hover">
+                                <td class="px-6 py-4 text-slate-500">5.2</td>
+                                <td class="px-6 py-4 font-medium">Rundown & Susunan Acara H-1 s.d H+1</td>
+                                <td class="px-6 py-4 text-slate-600">Jadwal teknis loading, opening, penjurian, closing event</td>
+                                <td class="px-6 py-4 text-center"><span class="status-badge status-siap-cetak">Siap Cetak</span></td>
+                                <td class="px-6 py-4 text-center no-print"><a href="#" class="text-sky-600 hover:text-sky-800"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></td>
+                            </tr>
+                            <tr class="table-row-hover">
+                                <td class="px-6 py-4 text-slate-500">5.3</td>
+                                <td class="px-6 py-4 font-medium">Laporan Pertanggungjawaban (LPJ)</td>
+                                <td class="px-6 py-4 text-slate-600">Template LPJ kegiatan + dokumentasi & evaluasi event</td>
+                                <td class="px-6 py-4 text-center"><span class="status-badge status-siap-cetak">Siap Cetak</span></td>
+                                <td class="px-6 py-4 text-center no-print"><a href="#" class="text-sky-600 hover:text-sky-800"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></td>
+                            </tr>
+                            <tr class="table-row-hover">
+                                <td class="px-6 py-4 text-slate-500">5.4</td>
+                                <td class="px-6 py-4 font-medium">Template Sertifikat Peserta & Juara</td>
+                                <td class="px-6 py-4 text-slate-600">Desain sertifikat print-ready ukuran A4 + mail merge</td>
+                                <td class="px-6 py-4 text-center"><span class="status-badge status-siap-cetak">Siap Cetak</span></td>
+                                <td class="px-6 py-4 text-center no-print"><a href="#" class="text-sky-600 hover:text-sky-800"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- 6. JURNAL GURU -->
+            <div class="glass-effect rounded-xl shadow-lg overflow-hidden">
+                <div class="bg-slate-800 text-white px-6 py-4 flex items-center gap-3">
+                    <div class="w-8 h-8 bg-teal-500 rounded-lg flex items-center justify-center">
+                        <i class="fa-solid fa-book"></i>
+                    </div>
+                    <h3 class="title-font text-lg font-semibold">6. JURNAL GURU</h3>
+                </div>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-sm">
+                        <thead class="bg-slate-50 border-b border-slate-200">
+                            <tr>
+                                <th class="px-6 py-3 text-left font-semibold text-slate-700 w-12">No</th>
+                                <th class="px-6 py-3 text-left font-semibold text-slate-700">Nama Dokumen</th>
+                                <th class="px-6 py-3 text-left font-semibold text-slate-700">Deskripsi</th>
+                                <th class="px-6 py-3 text-center font-semibold text-slate-700">Status</th>
+                                <th class="px-6 py-3 text-center font-semibold text-slate-700 no-print">Aksi</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-slate-100">
+                            <tr class="table-row-hover">
+                                <td class="px-6 py-4 text-slate-500">6.1</td>
+                                <td class="px-6 py-4 font-medium">Jurnal Agenda Harian Otomatis</td>
+                                <td class="px-6 py-4 text-slate-600">Template Excel jurnal mengajar + rekap refleksi & tindak lanjut</td>
+                                <td class="px-6 py-4 text-center"><span class="status-badge status-siap-cetak">Siap Cetak</span></td>
+                                <td class="px-6 py-4 text-center no-print"><a href="#" class="text-sky-600 hover:text-sky-800"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></td>
+                            </tr>
+                            <tr class="table-row-hover">
+                                <td class="px-6 py-4 text-slate-500">6.2</td>
+                                <td class="px-6 py-4 font-medium">Lembar Observasi Profil Lulusan</td>
+                                <td class="px-6 py-4 text-slate-600">Instrumen catatan anekdot dimensi Beriman, Kreatif, Gotong Royong</td>
+                                <td class="px-6 py-4 text-center"><span class="status-badge status-siap-cetak">Siap Cetak</span></td>
+                                <td class="px-6 py-4 text-center no-print"><a href="#" class="text-sky-600 hover:text-sky-800"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></td>
+                            </tr>
+                            <tr class="table-row-hover">
+                                <td class="px-6 py-4 text-slate-500">6.3</td>
+                                <td class="px-6 py-4 font-medium">Daftar Hadir & Nilai Digital</td>
+                                <td class="px-6 py-4 text-slate-600">Spreadsheet terintegrasi rekap kehadiran & nilai format e-rapor</td>
+                                <td class="px-6 py-4 text-center"><span class="status-badge status-siap-cetak">Siap Cetak</span></td>
+                                <td class="px-6 py-4 text-center no-print"><a href="#" class="text-sky-600 hover:text-sky-800"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="mt-12 mb-6 text-center text-sm text-slate-500">
+            <div class="border-t border-slate-200 pt-6">
+                <p class="font-medium text-slate-700">SMK NEGERI 14 KABUPATEN TANGERANG</p>
+                <p>Kompetensi Keahlian Desain Komunikasi Visual - Konsentrasi Desain Publikasi Fase F</p>
+                <p class="mt-2 text-xs">Dokumen ini disusun berdasarkan Pedoman Pembelajaran & Asesmen 2025 Kemendikbudristek</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Update statistik otomatis dari tabel
+        document.addEventListener('DOMContentLoaded', function() {
+            const allRows = document.querySelectorAll('tbody tr');
+            const siapCetak = document.querySelectorAll('.status-siap-cetak').length;
+            const siapSupervisi = document.querySelectorAll('.status-siap-supervisi').length;
+            
+            document.querySelector('.grid .text-emerald-600 + p').textContent = allRows.length;
+            document.querySelector('.grid .text-blue-600 + p').textContent = siapCetak;
+            document.querySelector('.grid .text-purple-600 + p').textContent = siapSupervisi;
+        });
+    </script>
+</body>
+</html>
