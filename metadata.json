@@ -1,0 +1,6 @@
+{
+  "name": "SimPKL DKV SMKN 14",
+  "description": "Sistem Informasi PKL DKV SMKN 14 Kab. Tangerang dengan fitur manajemen siswa & DUDI, logbook harian, analisis produktivitas, pencocokan penempatan prediktif, email HRD, dan chatbot interaktif.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
